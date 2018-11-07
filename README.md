@@ -1,6 +1,5 @@
 ---
-typora-root-url: ../MultiAudio
-typora-copy-images-to: ../MultiAudio
+
 ---
 
 ![logo](/logo.jpg)
