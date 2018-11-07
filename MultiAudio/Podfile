@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/birdmichael/BMPrivatePodsSepcRepo.git'
+
+platform :ios, ‘8.0’
+
+target 'MultiAudio' do
+  pod 'SVProgressHUD'
+  pod 'Masonry'
+  pod 'MJExtension'
+  pod 'BMPrivatePods'
+  pod 'Texture'
+end

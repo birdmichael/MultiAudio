@@ -1,0 +1,76 @@
+PODS:
+  - BMPrivatePods (0.1.6.15.11):
+    - BMPrivatePods/BMCFunctions (= 0.1.6.15.11)
+    - BMPrivatePods/BMHelper (= 0.1.6.15.11)
+    - BMPrivatePods/BMMacro (= 0.1.6.15.11)
+    - BMPrivatePods/BMSafeNil (= 0.1.6.15.11)
+    - BMPrivatePods/BMSwizzleMethod (= 0.1.6.15.11)
+    - BMPrivatePods/UIColor (= 0.1.6.15.11)
+    - BMPrivatePods/UIKit (= 0.1.6.15.11)
+  - BMPrivatePods/BMCFunctions (0.1.6.15.11)
+  - BMPrivatePods/BMHelper (0.1.6.15.11)
+  - BMPrivatePods/BMMacro (0.1.6.15.11)
+  - BMPrivatePods/BMSafeNil (0.1.6.15.11)
+  - BMPrivatePods/BMSwizzleMethod (0.1.6.15.11):
+    - BMPrivatePods/BMSafeNil
+  - BMPrivatePods/UIColor (0.1.6.15.11)
+  - BMPrivatePods/UIKit (0.1.6.15.11):
+    - BMPrivatePods/UIColor
+  - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - SVProgressHUD (2.2.5)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - BMPrivatePods
+  - Masonry
+  - MJExtension
+  - SVProgressHUD
+  - Texture
+
+SPEC REPOS:
+  https://github.com/birdmichael/BMPrivatePodsSepcRepo.git:
+    - BMPrivatePods
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - MJExtension
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - SVProgressHUD
+    - Texture
+
+SPEC CHECKSUMS:
+  BMPrivatePods: 87c936bff4f00f63e61dfc7f87d9252075c8019b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+
+PODFILE CHECKSUM: caeee6a18872276638f08334e0b042841b2f7d88
+
+COCOAPODS: 1.5.3
