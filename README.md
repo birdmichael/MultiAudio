@@ -1,6 +1,4 @@
----
 
----
 
 ![logo](/logo.jpg)
 
@@ -10,10 +8,10 @@
 
 ## 使用pods目录
 
-pod 'Masonry'  -> 部分页面布局使用
-pod 'MJExtension' -> 声音资源转模型使用
-pod 'BMPrivatePods' -> 私有库，主要动些宏定义（项目快速移植版本，懒的特调）
-pod 'Texture'-> 部分界面使用到了ASDK。（项目原本使用的ASDK，不影响阅读，换成VIew也可以）
+- pod 'Masonry'  -> 部分页面布局使用
+- pod 'MJExtension' -> 声音资源转模型使用
+- pod 'BMPrivatePods' -> 私有库，主要动些宏定义（项目快速移植版本，懒的特调）
+- pod 'Texture'-> 部分界面使用到了ASDK。（项目原本使用的ASDK，不影响阅读，换成VIew也可以）
 
 ## 截图演示(声音播放部分无法演示)
 
