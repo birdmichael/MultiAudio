@@ -98,7 +98,6 @@
         audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:fileURL error:&error];
     }@catch(id anException){
     }
-    
     [self.players setObject:audioPlayer forKey:item.pathName];
     if (audioPlayer) {
         audioPlayer.numberOfLoops = -1; // 无限循环播放

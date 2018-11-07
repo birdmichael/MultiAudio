@@ -81,8 +81,7 @@
     
 }
 
-- (void)panGestureDown:(UIPanGestureRecognizer *)pan
-{
+- (void)panGestureDown:(UIPanGestureRecognizer *)pan {
     CGPoint veloctyPoint = [pan velocityInView:self];
     switch (pan.state) {
         case UIGestureRecognizerStateChanged:{
@@ -154,9 +153,6 @@
     // 添加水波
     if (self.iconButton.selected == YES) {
         [self showWaveView:@(kBMWaveScheduleDefault)];
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            
-        });
     }else {
         self.waveView.hidden = YES;
         [self removeGestureRecognizer:self.panGesture];
@@ -168,7 +164,6 @@
     self.panGesture.delegate = self;
     [self addGestureRecognizer:self.panGesture];
     [self.waveView updateViewGradientFromColor:[UIColor bm_colorWithHexString:self.model.bgFromColor] toColor:[UIColor bm_colorWithHexString:self.model.bgToColor] withRange:self.iconButton.imageView.image.size.width];
-//    self.volume = 0.5;
     [self.waveView showDripAnmin:volume];
 }
 

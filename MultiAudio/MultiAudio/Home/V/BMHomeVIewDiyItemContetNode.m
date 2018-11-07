@@ -76,7 +76,6 @@ static NSString * const kTipsLabelAlphaAnimation = @"kTipsLabelAlphaAnimation";
 
 - (void)showtTipsView:(NSString *)text {
     self.tipsLabel.text = text;
-    
     // animate
     // 入场动画
     [_tipsView.layer removeAllAnimations];
